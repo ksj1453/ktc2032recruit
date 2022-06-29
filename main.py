@@ -4,9 +4,9 @@ import pandas as pd
 import numpy as np
 
 from api import *
-from app.app import *
+from app import *
 
-
+  
 html_1 = "<p style ='text-align: left'><img src='data:image/png;base64,{}' class='img-fluid' width =100%></p>".format(
     img_to_bytes("static/001.png")
 )
