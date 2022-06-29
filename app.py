@@ -1,4 +1,3 @@
-from turtle import pd
 import streamlit as st
 import datetime
 from api import *
